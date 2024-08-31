@@ -5,16 +5,17 @@ import ExperienceCard from "./components/ExperienceCard";
 import IntroCard from "./components/IntroCard";
 import TechstackCard from "./components/TechstackCard";
 import ConnectCard from "./components/ConnectCard";
+import GameCard from "./components/GameCard";
 
 export default function Home() {
   const handleDownload = () => {};
 
   return (
-    <main className="grid grid-cols-4 gap-4 grid-rows-8 max-w-6xl m-auto max-h-[800px] p-4 h-screen">
+    <main className="grid lg:grid-cols-4 gap-4 lg:grid-rows-8 grid-cols-1 grid-flow-row max-w-6xl m-auto max-h-[800px] p-4 h-screen">
       <IntroCard />
       <ExperienceCard />
       <TechstackCard />
-      <Card className="col-span-2 row-span-2">GAME HERE</Card>
+      <GameCard />
       <ConnectCard />
       <Card className="col-span-1 row-span-1">
         <div
@@ -34,6 +35,14 @@ export default function Home() {
               target="_blank"
             >
               NextJS
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://tailwindcss.com"
+              className="text-[#899878]"
+              target="_blank"
+            >
+              Tailwind
             </a>
           </p>
         </div>

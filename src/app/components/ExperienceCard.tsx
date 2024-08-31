@@ -4,7 +4,7 @@ import Card from "./Card";
 export default function ExperienceCard() {
   const experienceInfo = EXPERIENCE;
   return (
-    <Card className="col-span-1 row-span-6">
+    <Card className="lg:col-span-1 lg:row-span-6 col-span-1 row-span-6">
       <div className="flex flex-col gap-8">
         <div className="font-bold text-2xl text-[#899878]">
           Experience

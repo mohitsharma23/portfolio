@@ -5,8 +5,8 @@ export default function IntroCard() {
   const linksInfo = LINKS;
 
   return (
-    <Card className="col-span-3 row-span-4">
-      <div className="flex justify-between items-center gap-10 h-full">
+    <Card className="lg:col-span-3 lg:row-span-4 col-span-1">
+      <div className="flex flex-col justify-between items-center gap-10 h-full lg:flex-row">
         <div className="flex h-full items-center">
           <div className="h-48 w-48 bg-slate-100 rounded-full"></div>
         </div>
@@ -20,7 +20,7 @@ export default function IntroCard() {
               zu erhalten
             </div>
           </div>
-          <div className="flex justify-end gap-4">
+          <div className="flex justify-end gap-4 mt-4">
             {linksInfo.map((link, index) => (
               <a href={link.link} key={index} target="_blank">
                 <div className="border-2 cursor-pointer p-2 hover:bg-[#F7F7F2] group">
