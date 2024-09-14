@@ -5,7 +5,7 @@ export default function TechstackCard() {
   const techStack = TECH_STACK;
 
   return (
-    <Card className="col-span-1 row-span-4">
+    <Card className="col-span-1 row-span-4 animate-slidein500">
       <div className="flex flex-col gap-8">
         <div className="font-bold text-2xl text-[#899878]">
           Tech Stack

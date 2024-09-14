@@ -17,7 +17,7 @@ export default function Home() {
       <TechstackCard />
       <GameCard />
       <ConnectCard />
-      <Card className="col-span-1 row-span-1">
+      <Card className="col-span-1 row-span-1 animate-slidein700">
         <div
           className="flex items-center justify-center h-full border-2 hover:bg-[#F7F7F2] hover:text-[#222725] cursor-pointer"
           onClick={handleDownload}
@@ -25,7 +25,7 @@ export default function Home() {
           Download resume
         </div>
       </Card>
-      <Card className="col-span-1 row-span-1">
+      <Card className="col-span-1 row-span-1 animate-slidein900">
         <div className="flex items-center text-xs">
           <p>
             &#169; 2024 | Crafted with &#9829; using{" "}

@@ -7,7 +7,7 @@ export default function Card({
 }>) {
   return (
     <div
-      className={`p-4 border-[#222725] border-solid border-2 rounded-md h-auto ${className} bg-[#222725] hover:border-[#E4E6C3]`}
+      className={`p-4 border-[#222725] border-solid border-2 rounded-md h-auto ${className} bg-[#222725] hover:border-[#E4E6C3] opacity-0`}
     >
       {children}
     </div>
