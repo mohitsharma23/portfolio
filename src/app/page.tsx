@@ -8,8 +8,6 @@ import ConnectCard from "./components/ConnectCard";
 import GameCard from "./components/GameCard";
 
 export default function Home() {
-  const handleDownload = () => {};
-
   return (
     <main className="grid lg:grid-cols-4 gap-4 lg:grid-rows-8 grid-cols-1 grid-flow-row max-w-6xl m-auto max-h-[800px] p-4 h-screen">
       <IntroCard />
@@ -18,12 +16,11 @@ export default function Home() {
       <GameCard />
       <ConnectCard />
       <Card className="col-span-1 row-span-1 animate-slidein700">
-        <div
-          className="flex items-center justify-center h-full border-2 hover:bg-[#F7F7F2] hover:text-[#222725] cursor-pointer"
-          onClick={handleDownload}
-        >
-          Download resume
-        </div>
+        <a href="/files/Resume.pdf" target="_blank">
+          <div className="flex items-center justify-center h-full border-2 hover:bg-[#F7F7F2] hover:text-[#222725] cursor-pointer">
+            View resume
+          </div>
+        </a>
       </Card>
       <Card className="col-span-1 row-span-1 animate-slidein900">
         <div className="flex items-center text-xs">

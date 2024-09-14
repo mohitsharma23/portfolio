@@ -6,7 +6,7 @@ import {
   RiGithubFill,
   RiLinkedinFill,
 } from "react-icons/ri";
-import { SiGraphql } from "react-icons/si";
+import { SiGraphql, SiTypescript } from "react-icons/si";
 
 export const TECH_STACK = [
   { icon: RiJavascriptLine, name: "Javscript" },
@@ -14,6 +14,7 @@ export const TECH_STACK = [
   { icon: RiReactjsLine, name: "React" },
   { icon: RiNextjsLine, name: "Next" },
   { icon: SiGraphql, name: "Graphql" },
+  { icon: SiTypescript, name: "Typescript" },
 ];
 
 export const EXPERIENCE = [
