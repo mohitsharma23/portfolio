@@ -8,7 +8,7 @@ export default function IntroCard() {
     <Card className="lg:col-span-3 lg:row-span-4 col-span-1 animate-slidein300">
       <div className="flex flex-col justify-between items-center gap-10 h-full lg:flex-row">
         <div className="flex h-full items-center">
-          <div className="h-48 w-48 bg-slate-100 rounded-full"></div>
+          <div className="h-48 w-48 bg-slate-100 rounded-full border-2 bg-[url('/self.jpg')] bg-contain"></div>
         </div>
         <div className="flex flex-col justify-between h-full">
           <div>
