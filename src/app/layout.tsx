@@ -5,8 +5,11 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Mohit Sharma",
-  description: "Frontend developer",
+  title: "Mohit Sharma | Frontend Developer | Angular & JavaScript",
+  description:
+    "Mohit Sharma's personal portfolio showcasing front-end development skills using Angular and JavaScript. Get in touch.",
+  keywords:
+    "Frontend Developer, Angular Developer, React Developer, Typescript, Next, JavaScript, Mohit Sharma, Developer Portfolio, India Developer",
 };
 
 export default function RootLayout({
