@@ -19,12 +19,20 @@ export const TECH_STACK = [
 
 export const EXPERIENCE = [
   {
+    company: "Arista Networks",
+    link: "https://arista.com",
+    location: "Pune",
+    position: "Software Engineer",
+    startDate: "April 2025",
+    endDate: "Present",
+  },
+  {
     company: "Soroco",
     link: "https://soroco.com",
     location: "Bengaluru",
     position: "Senior Software Engineer",
     startDate: "Jan 2024",
-    endDate: "Present",
+    endDate: "April 2025",
   },
   {
     company: "Soroco",
